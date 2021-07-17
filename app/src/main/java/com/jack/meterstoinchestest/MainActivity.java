@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 System.out.println("Clicks");
                 chooseCalculation();
+                something();
             }
         });
 
@@ -97,5 +98,8 @@ public class MainActivity extends AppCompatActivity {
         editTextMeters.setText(null);
     }
 
+    private void something(){
+        System.out.println("Hello");
+    }
 
 }
